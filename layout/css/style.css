@@ -1,0 +1,675 @@
+header{
+    width: 100%;
+}
+/* --------------     ustHeader -------------------  */
+.ust_header{
+    background-color: #1C2023;
+    width: 100%;
+    height: 40px;
+}
+
+#ustH_menu{
+    margin-right: 25px;
+    margin-top: 10px;
+    float: right;   
+}
+#ustH_menu li{
+    display: inline-block;
+    color: white;
+    float: left;
+    margin-right: 30px;
+}
+.ustH_items:hover div{
+    display: block;
+}
+.ustH_items div{
+    display: none;
+    position: absolute;
+}
+.ustH_items ul{
+    background-color: #F0F0F0;
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+}
+.ustH_items a{
+    color: #444;
+    text-decoration: none;
+}
+.ustH_items a{
+    display: block;
+    width: 50px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.ustH_items a:hover{
+    background-color: #a0a0a0;
+}
+/*  -------------------   ortaHeader -------------------  */
+.orta_Header{
+    width: 100%;
+    border-width: 0.5px 0 0 0 ;
+    border-color: #555 ;
+    border-style: solid;
+    background-color: #1C2023;
+    height: 100px;
+    
+}
+
+#logo_H{
+    width: 120px;
+    margin-left: 60px;
+    float: left;
+}
+/*                        AramaHeader  */
+#arama_H{
+    width: 35%;
+    float: left;
+    margin-top: 30px;
+    margin-left: 120px;
+}
+.kategori_H{
+    width: 130px;
+    height: 40px;
+    background-color: #F0F0F0;
+    color: dimgray;
+    border-width: 1px;
+    float: left;
+    border-radius: 5px 0 0 5px;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+.kategori{
+    margin: 12px 5px;
+    float: left;
+    font-size: 0.9em;
+    padding: 0 2px;
+      
+}
+ .trans{
+    transition: transform 0.5s;
+}
+
+#arama_H > div{
+    display:block;
+}
+.kate_list{
+    display: none;
+    position: absolute;
+    height: 120px;
+    width: 150px;
+    top: 102px;
+    cursor: pointer;  
+   z-index: 1000;
+}
+.kate_list ul{
+    background-color: #FFFFFF;
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x:hidden;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, .5);
+    
+}
+.kate_list ul li{
+   padding: 10px; 
+    list-style: none;
+    color: dimgrey;
+    font-size: 0.8em;
+    width: 100%;
+    cursor: hand;
+}
+
+.kate_list ul li:hover{
+    background-color: #A0A0A0;
+    color:white;
+}
+
+.arma_HBar{
+    width: 70%;
+    height: 40px;
+    float: left;
+    
+}
+.arma_HBar input{
+    height: 16px;
+    width: 70%;
+    border: none;
+    float: left;    
+    padding: 12px 20px;
+    color: #888;
+    font-size: 14px;
+    
+}
+
+input:focus {
+    outline: none;
+    
+}
+.arma_HBar button{
+    background-color: #FF530D;
+    color: white;
+    width: 20%;
+    height: 40px;
+    border-radius: 0 5px 5px 0;
+    border: none;
+    margin-left: -5px;
+    cursor: pointer;
+}
+.arma_HBar button i{
+    font-size: 20px;
+}
+.arma_menusu{
+    float: left;
+    margin-top: 8px;
+    margin-left: 30px;
+}
+.arma_menusu li{
+    display: inline-block;
+    float: left;
+    margin-right: 5px;
+    color: white;
+    cursor: default;
+}
+.arma_menusu li a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+#ortaH_menu{
+    float: right;
+    margin-right: 40px;
+    margin-top: 30px; 
+}
+#ortaH_menu > div {
+    display: inline-block;
+    float: left;
+    margin-left: 20px;
+    color: white;
+    width: 100px;
+    
+}
+.uyuluk_H_Box{
+    background-color: white;
+    width: 200px;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, .2);
+    display: none;
+    position: absolute;
+       
+        }
+.uyuluk_H_Box:before{
+            
+      border: 15px solid transparent;
+      border-bottom: 15px solid white;
+      position: absolute;
+      height: 0;
+      width: 0;
+      margin-top: -25px; 
+      margin-left: 10px;
+      display: block;
+      content: '';
+      
+        }
+
+.kayit_ol{
+    background-color: #Fa530D;
+    color: white;
+    width: 140px;
+    margin-top: 30px;
+    margin-left: 30px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2em;
+    cursor: hand;
+}
+
+.kayit_ol:hover{
+    background-color: #FF5A0F;
+}
+
+button:focus{
+    outline: none;
+}
+.sepet_ico{
+    float: left;
+}
+.sepet_H_div p{
+ float: left;   
+    
+}
+
+.circ{
+    color: #FF530D;
+    float: left;
+    margin-left: 5px;
+    width: 50px;
+    
+}
+
+.counter_sepet{
+    color: white;
+    margin-left: -12px;
+    font-weight: 700;
+    font-size: 0.95em;
+}
+#ortaH_menu p{
+    margin-left: 5px;
+    
+}
+
+.sepet_H_Box{
+    background-color: white;
+    width: 300px;
+    height: 150px;
+    margin-top: 50px;
+    margin-left: -210px;
+    border-radius:10px;
+    box-shadow: 1px 2px 3px rgba(0, 0, 0, .4);
+    display: none;
+    position: absolute;
+       
+        }
+.sepet_H_Box:before{
+            
+      border: 15px solid transparent;
+      border-bottom: 15px solid white;
+      position: absolute;
+      height: 0;
+      width: 0;
+       margin-top: -25px; 
+       margin-left: 250px;
+      display: block;
+     content: '';
+      
+        }
+#ortaH_menu a{
+    color: white;
+    text-decoration: none;
+}
+#ortaH_menu a:hover{
+    color: #FF530D;
+}
+.uyuluk_H,.favor_H,.sepet_H_div p{
+    font-size: 0.8em;
+}
+.uyuluk_H{
+    width: 72px;
+    text-overflow: ellipsis;
+    display: inline-block;
+    overflow: hidden;
+}
+::-webkit-scrollbar {
+  width: 5px;
+    border-radius: 1px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb  {
+  background: #888; 
+}
+
+/* Handle on hover */
+::scrollbar-thumb:hover{
+  background: #555; 
+}
+
+::scrollbar {
+  width: 5px;
+    border-radius: 1px;
+}
+
+/* Track */
+::scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::scrollbar-thumb  {
+  background: #888; 
+}
+
+/* Handle on hover */
+::scrollbar-thumb:hover{
+  background: #555; 
+}
+/*---------------------------altHeader -----------------------------*/
+.alt_header{
+    height: 40px;
+    width: 100%;
+    border-width: 0.5px 0 0 0 ;
+    border-color: #555 ;
+    border-style: solid;
+    background-color: #1C2023;
+}
+.alt_H_menu{
+    float: left;
+    color: white;
+    padding: 11px;
+    margin-left: 80px;
+    margin-right: 50px;
+    z-index: 1000;
+}
+.alt_H_menu:hover {
+    color: orange;
+}
+#alt_h_kategori:hover #alt_h_katDiv{
+    display: block;
+}
+.alt_H_menu span{
+    font-family: monospace;
+    font-size: 1.2em;
+    cursor: hand;
+    
+}
+.alt_H_menu > i{
+    transition: transform 0.5s;
+}
+.alt_H_menu:hover > i{
+    transform: rotate(180deg);
+} 
+
+#alt_h_katDiv{
+    position: absolute;
+    display: none;
+    padding-top: 0;
+    margin-left: -5px;
+    margin-top: 10px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .4);
+    z-index: 1000;
+    background-color: #fff;
+    width: 200px;
+}
+
+
+#alt_h_katDiv ul{
+    list-style: none;
+    width: 100%;
+    margin-top: 10px;
+    
+}
+#alt_h_katDiv ul li {
+    margin-bottom: 5px;
+    
+}
+#alt_h_katDiv ul li:hover  {
+    background-color: #EEE;    
+}
+#alt_h_katDiv ul a{
+    color: dimgrey;
+    text-decoration: none;
+    display: block;
+    padding: 10px 30px;
+}
+.alt_h_yanMenu{
+    position: absolute;
+    background-color: red;
+    top: 20px;
+    left: 160px;
+    display: none;
+    width: 300px;
+}
+#alt_h_katDiv ul li:hover .alt_h_yanMenu{
+    display: block;
+}
+.alt_h_yanMenu div{
+    margin: 10px;
+    float: left;
+    display: inline-block;
+    background-color: blue;
+}
+/*--------------------------asid --------------------------------*/
+.aside-menu{
+    position: fixed;
+    right: 60px;
+    bottom: 80px;
+    display: none;
+    text-align: center;
+}
+.aside-menu div{
+    cursor: pointer;
+}
+.aside-menu i{
+    color: #ffda00;
+    background-color: #494949;
+    padding: 10px;
+    font-size: 1.1em;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 1;
+    
+}
+.aside-menu .as-arrow:hover i{
+    background-color: #ffda00;
+    color: #494949;
+}
+.aside-menu .as-arrow i{
+    padding: 15px;
+    font-size: 1.3em;
+}
+.aside-menu .as-fbk i{
+    background-color: #6f53d7;
+    color: white;
+}
+.aside-menu .as-twr i{
+    background-color: #17baf0;
+    color: white;
+    
+}
+.aside-menu span{
+    position: absolute;
+    padding: 8px;
+    border-radius: 20px;
+    background-color:  #ffda00;
+    right: 10px;
+    width: 75px;
+    z-index: 0;
+    text-align: left;
+    font-size: 1.1em;
+    max-width: 0;
+    overflow: hidden;
+    transition: max-width 0.5s;
+}
+.aside-menu div:hover span{
+    max-width:100px;
+}
+.aside-menu .as-like span{
+    width: 100px;
+}
+
+/*-----------------------item-----------------------------*/
+.tml-item{
+    width: 210px;
+    height: 330px;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    margin-left: 50px;
+}
+.tml-item:hover{
+    transition: all .3s ease-in-out;
+   box-shadow:  0 0 16px rgba(0,0,0,.15);
+}
+.tml-item .item-img img{
+    height: 250px;
+    width: 200px;
+    display: block;
+    cursor: pointer;
+}
+.tml-item .item-title a,
+.tml-item .item-img a{
+    color: #000;
+    text-decoration: none;
+}
+.tml-item .item-title a:hover{
+    color: #f69f1c;
+}
+.tml-item .item-discount{
+    position: absolute;
+    top: 28px;
+    right: 35px;
+}
+.tml-item .item-discount > i{
+    font-size: 50px;
+    color: #ed0a43;
+}
+.tml-item .item-discount span{
+    position: absolute;
+    left: 3px;
+    top: 8px;
+    color: white;
+}
+
+.tml-item .item-title{
+    width: 100%;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.tml-item .item-title:hover,.tml-item .item-like:hover{
+    color: #f69f1c;
+}
+.tml-item .item-oldprice{
+    position: absolute;
+    bottom: 40px;
+    left: 25px;
+    color: #999;
+    text-decoration: line-through;
+}
+.tml-item .item-newprice{
+    position: absolute;
+    bottom: 20px;
+    left: 25px;
+    color: #ed0a43;
+    font-weight: 800;
+    font-size: 1.2em;
+}
+
+.tml-item .item-like{
+    position: absolute;
+    bottom: 20px;
+    right: 25px;
+    color: #999;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+/*------------------------------footer -------------------*/
+
+footer{
+    width: 100%;
+    height: 450px;
+    float: left;
+}
+.fo-bilgi{
+    width: 100%;
+    height: 96%;
+    background-color: white;
+}
+
+.fo-haber{
+    width: 100%;
+    height: 100px;
+}
+.fo-haber-label,.fo-haber-form{
+    float: left;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.fo-haber-label{
+    padding: 10px;
+    font-weight: bold;
+    color: #999;
+    margin-left: 80px;
+    }
+
+
+.fo-haber-form input{
+    height: 30px;
+}
+.fo-haber-form .email{
+    border: 1px solid black;
+    padding: 5px;
+    width: 300px;
+}
+.fo-haber-form .submit{
+    background-color: black;
+    border: 1px solid black;
+    height: 42px;
+    width: 100px;
+    color: white;
+    padding: 5px;
+    margin-left: -4px;
+}
+
+.fo-haber-icons{
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.fo-haber-icons i{
+    background-color: #1C2023;
+    border-radius: 50%;
+    color: white;
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.fo-haber-icons .fbk{
+    padding:  10px 13px;
+}
+.fo-haber-icons .ing{
+    padding:  10px 11px;
+}
+.fo-haber-icons .fbk:hover{
+    background-color: #3412bd;
+}
+.fo-haber-icons .ing:hover{
+    background-color: #f09b1b;
+}
+.fo-haber-icons .ytb:hover{
+    background-color: #f01818;
+}
+.fo-haber-icons .twr:hover{
+    background-color: #16d9f0;
+}
+
+.fo-other{
+    width: 100%;
+}
+.fo-other div{
+    float: left;
+    margin-left: 150px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+.fo-other a{
+    text-decoration: none;
+    color: #999;
+}
+.fo-other li{
+    margin-top: 10px;
+    list-style: none;
+}
+.fo-copyright{
+    color: white;
+    height: 5%;
+    font-weight: bold;
+    padding: 10px 0 20px 0;
+    text-align: center;
+    background-color: #1C2023;
+}
+
